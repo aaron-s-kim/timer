@@ -11,7 +11,7 @@ for (let i = 0; i < args.length; i++) {
   
     setTimeout(() => {
       process.stdout.write('\x07'); // perform system sound
-      process.stdout.write(args[i] + '\n'); // perform system sound
+      process.stdout.write(args[i] + '\n');
     }, delay);
   }
 }
